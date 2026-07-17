@@ -1,0 +1,1 @@
+SELECT * FROM dbt.source.fact_returns
