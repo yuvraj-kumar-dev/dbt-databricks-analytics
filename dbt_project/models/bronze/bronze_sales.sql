@@ -1,1 +1,1 @@
-SELECT * FROM dbt.source.fact_returns
+SELECT * FROM {{source('source', 'fact_sales')}}
